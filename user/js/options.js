@@ -16,24 +16,24 @@ define({
         pluginsEnabled : {
             //Plugins enabling
             //bubble: true,
-            //debugmode: true
-            //globalNav: true,
-            //search: true
+            debugmode: true,
+            globalNav: true,
+            search: true
         },
 
         pluginsOptions : {
             //Plugins options example
-            //globalNav : {
-            //    pageLimit: 999
-            //}
+//            globalNav : {
+//                pageLimit: 999
+//            }
         }
     },
 
     // Default options for landing page
     landingOptionsExceptions : {
         pluginsEnabled : {
-            //bubble: false,
-            //debuggmode: false
+            bubble: false,
+            debuggmode: false
         }
     }
 
