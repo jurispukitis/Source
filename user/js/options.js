@@ -15,6 +15,9 @@ define({
         // Plugins
         pluginsEnabled : {
             //Plugins enabling
+            //debugmode: true,
+
+            //PHP and proper chmod for file writing required for these plugins
             //bubble: true,
             debugmode: true,
             globalNav: true,

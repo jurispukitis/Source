@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=10">
-    <title>Комментирование спецификаций, плагин bubble.js</title>
+    <title>Плагин — Комментирование спецификаций</title>
 
     <meta name="author" content="Островский Алексей">
 
@@ -21,12 +21,20 @@
         <script data-main="/core/js/source" src="/core/js/lib/require-jquery.js"></script>
     <!-- /Source default resources -->
 
+	<script>
+		define('modules/inlineOptions', {
+			pluginsEnabled : {
+				bubble: true
+			}
+		})
+	</script>
+
 </head>
 <body>
 
     <div class="source_container"><div class="source_main source_col-main" role="main">
 
-        <h1>Комментирование спецификаций, плагин bubble.js</h1>
+        <h1>Плагин — Комментирование спецификаций, </h1>
 
 	    <p class="source_warn">
 		    На этой странице по умолчанию включен плагин, но баблики намерено не сохраняются после рефреша.
