@@ -3,3 +3,24 @@
 * Overriding core styles
 *
 */
+
+.source_header_pro {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+
+	vertical-align: top;
+
+	margin-top: 4px;
+	margin-left: 15px;
+	}
+
+.source_header_i {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	}
+
+.source_header_pro_gh_follow {
+	margin-left: 12px;
+	}
